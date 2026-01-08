@@ -1,0 +1,113 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 20px 0;
+    width: 60%;
+    margin: 0 auto ;
+}
+
+.text-center{
+    text-align: center ;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 50%;
+}
+table tr th {
+    border-bottom: 1px solid rgb(247, 187, 128);
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color:rgb(60, 180, 219);
+    padding: 1%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    background-color: rgb(80, 147, 214);
+}
+
+.btn-secondary{
+    background-color:rgb(135, 230, 164);
+    padding: 1%;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color: rgb(133, 220, 166);
+}
+
+.btn-danger{
+    background-color:rgb(238, 185, 133);
+    padding: 1%;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.btn-danger:hover{
+    background-color: rgb(219, 138, 56);
+}
+.menu {
+    border-bottom: 1px solid rgb(156, 148, 148) ;
+}
+
+.menu ul{
+    list-style-type: none ;
+}
+.menu ul li{
+    display: inline;
+    padding: 2%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(184, 99, 13, 0.753);
+}
+.menu ul li a:hover{
+    color: #dfe79f;
+}
+.main-content{
+    background-color: rgba(228, 105, 100, 0.373);
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: rgb(249, 219, 219);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.footer{
+    background-color: #e5db6b;
+    color: rgb(76, 39, 39)
+}
+.dn{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}

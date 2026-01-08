@@ -1,0 +1,567 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 50%;
+}
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+    
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 60%;
+    color: #785e0f;
+}
+fieldset{
+    border: 1px solid rgb(224, 122, 122);
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+
+
+.logo{
+    width: 18%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bold;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #e37c48;
+    padding: 0.5rem 1rem;
+}
+
+
+.food-search {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+    position: relative;
+}
+
+.food-search::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+
+.food-search .container {
+    position: relative;
+    z-index: 2;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.categories{
+    padding: 3% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+.food-menu{
+    background-color: #cfaaaa;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 100%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border: #78e651;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: #ea832f;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+.categories {
+    padding: 50px 0;
+    background: hsl(0, 0%, 100%);
+}
+
+.categories h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.categories .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.categories-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5px;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.categories-grid > a {
+    flex: 1 1 0;
+    max-width: 300px;
+    min-width: 280px;
+    text-decoration: none;
+    display: block;
+}
+
+.categories-grid .box-3 {
+    background: rgb(71, 62, 62);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+}
+
+.categories-grid .box-3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.categories-grid .category-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.categories-grid .category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+    display: block;
+}
+
+.categories-grid .box-3:hover .category-image img {
+    transform: scale(1.1);
+}
+
+/* OVERLAY */
+.categories-grid .category-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 100%);
+    z-index: 1;
+}
+
+.categories-grid .float-text {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    padding: 0 15px;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.categories-grid .box-3:hover .float-text {
+    bottom: 30px;
+    font-size: 24px;
+}
+
+.float-container {
+    display: block;
+    height: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 1200px) {
+    .categories-grid {
+        flex-wrap: wrap;
+    }
+    
+    .categories-grid > a {
+        flex: 0 0 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .categories h2 {
+        font-size: 28px;
+    }
+    
+    .categories-grid {
+        gap: 20px;
+    }
+    
+    .categories-grid > a {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+    
+    .categories-grid .category-image {
+        height: 250px;
+    }
+    
+    .categories-grid .float-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .categories {
+        padding: 30px 0;
+    }
+    
+    .categories-grid {
+        flex-direction: column;
+    }
+    
+    .categories-grid > a {
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .categories-grid .category-image {
+        height: 220px;
+    }
+}
+
+.food-menu {
+    padding: 50px 0;
+    background: white;
+}
+
+.food-menu h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.food-menu .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.food-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.food-menu-box {
+      background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+}
+
+.food-menu-box:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.food-menu-img {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.food-menu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+}
+
+.food-menu-box:hover .food-menu-img img {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.food-menu-desc {
+    padding: 30px;
+    background: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-menu-desc h4 {
+    font-size: 24px; 
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: bold;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    line-height: 1.3;
+}
+
+.food-price {
+    font-size: 24px; 
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.food-detail {
+    font-size: 16px; 
+    color: #7f8c8d;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    max-height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+}
+.food-menu-desc .btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.food-menu-desc .btn-primary,
+.food-menu-desc .btn-cart {
+    flex: 1;
+    padding: 14px; 
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 16px; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-menu-desc .btn-primary {
+    background: linear-gradient(135deg, #6ec0c6 0%, #78e651 100%);
+    color: white;
+}
+
+.food-menu-desc .btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.food-menu-desc .btn-cart {
+    background: linear-gradient(135deg, #6db2cd 0%, #51f84e 100%);
+    color: white;
+}
+
+.food-menu-desc .btn-cart:hover {
+    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 87, 108, 0.5);
+}
+
+.food-menu .text-center {
+    margin-top: 50px;
+}
+
+.food-menu .text-center a {
+    display: inline-block;
+    padding: 18px 50px; 
+    background: linear-gradient(135deg, hsl(17, 80%, 85%) 0%, #fda27e 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.food-menu .text-center a:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
+}
+.clearfix {
+    clear: both;
+}
